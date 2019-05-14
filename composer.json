@@ -1,0 +1,20 @@
+{
+    "name": "shiraj19/ime-pay",
+    "description": "This package helps you to integrate IME-Pay payment gateway to your laravel app.",
+    "type": "nein",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shiraj Pradhanang",
+            "email": "ceeraazz@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shiraj19\\Ime-Pay\\ImepayServiceProvider"
+            ]
+        }
+    }
+}
